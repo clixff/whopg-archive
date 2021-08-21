@@ -69,7 +69,7 @@
   },
   "include": [
     "src/*.ts",
-    "src/*.tsx",
+    "src/*.tsx", "index.d.ts",
   ],
   "exclude": [
     "node_modules"

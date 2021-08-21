@@ -1,14 +1,1 @@
-[
-    {
-        "streamer": {
-            "games": [
-                {
-                    "name": "Test",
-                    "url": "https://steampowered.com",
-                    "status": 0,
-                    "comment": "Comment"
-                }
-            ]
-        }
-    }
-]
+[[{"name":"NAMVSEYASNO","color":"51C351","games":[{"name":"Test","url":"https://steampowered.com","status":0,"comment":"Comment"}]},{"name":"Balabama","color":"DADA5A","games":[]},{"name":"Westmage","color":"4ECBBF","games":[]},{"name":"usachman","color":"BD5252","games":[]}],[]]

@@ -20,16 +20,30 @@ module.exports = {
       {
         test: /\.css$/,
         use:
-        {
-            loader: 'css-loader',
-            options: {
-                modules: {
-                    auto: true,
-                    localIdentName: '[name]__[local]--[hash:base64:5]'
-                }
-            }
-        }
+        [
+          'style-loader', 
+          {
+              loader: 'css-loader',
+              options: {
+                  modules: {
+                      auto: true,
+                      localIdentName: '[name]__[local]--[hash:base64:5]'
+                  }
+              }
+          }
+        ]
       },
+      {
+        test: /\.svg$/,
+        use: ['babel-loader', 
+        {
+          loader: 'react-svg-loader',
+          options: 
+          {
+            jsx: true
+          }
+        }]
+      }
     ],
   },
   plugins: [
@@ -43,6 +57,9 @@ module.exports = {
           },
           {
             from: "src/data.json"
+          },
+          {
+            from: 'src/favicon.ico'
           }
         ]
       }),

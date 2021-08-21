@@ -3,6 +3,8 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
 const CopyPlugin = require("copy-webpack-plugin");
+const JsonMinimizerPlugin = require("json-minimizer-webpack-plugin");
+
 
 
 module.exports = {
@@ -28,6 +30,21 @@ module.exports = {
           }
         ]
       },
+      {
+        test: /\.json$/i,
+        type: "asset/resource",
+      },
+      {
+        test: /\.svg$/,
+        use: ['babel-loader', 
+        {
+          loader: 'react-svg-loader',
+          options: 
+          {
+            jsx: true
+          }
+        }]
+      }
     ],
   },
   plugins: [
@@ -44,6 +61,9 @@ module.exports = {
         },
         {
           from: "src/data.json"
+        },
+        {
+          from: 'src/favicon.ico'
         }
       ]
     })
@@ -58,7 +78,7 @@ module.exports = {
   optimization: {
     minimize: true,
     minimizer: [
-      '...', new CssMinimizerPlugin(),
+      '...', new CssMinimizerPlugin(), new JsonMinimizerPlugin()
     ],
   }
 };

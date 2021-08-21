@@ -1,0 +1,116 @@
+#navbar
+{
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+
+    --height: 50px;
+    height: var(--height);
+    min-height: var(--height);
+    max-height: var(--height);
+
+    background: var(--grey-one);
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+}
+
+#navbar-logo
+{
+    font-weight: bold;
+    font-size: 15px;
+    color: rgb(221, 221, 221);
+    transition: color 0.1s linear;
+    cursor: pointer;
+    user-select: none;
+    margin-left: 25px;
+}
+
+#content
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 90px;
+    overflow: hidden;
+    min-height: calc(100vh - 140px);
+    margin-bottom: 50px;
+}
+
+#content-container
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#search-wrapper
+{
+    --height: 44px;
+    height: var(--height);
+    min-height: var(--height);
+    max-height: var(--height);
+
+    --width: 530px;
+    width: var(--width);
+    min-width: var(--width);
+    max-width: var(--width);
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#search-wrapper > *
+{
+    height: inherit;
+    min-height: inherit;
+    max-height: inherit;
+}
+
+#search-button
+{
+    --width: 44px;
+    width: var(--width);
+    min-width: var(--width);
+    max-width: var(--width);
+    background: var(--grey-three);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#search-button > svg
+{
+    fill: rgb(197, 197, 197);
+}
+
+#search-input
+{
+    width: calc(100% - 64px);
+    border: none;
+    outline: none;
+    padding: 0;
+    padding-left: 10px;
+    background: var(--grey-one);
+    color: white;
+    border-radius: 5px;
+    font-size: 13px;
+}
+
+#loading
+{
+    margin-top: 30px;
+}
+
+#loading > svg
+{
+    width: 50px !important;
+    height: 50px !important;
+}

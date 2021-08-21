@@ -1,6 +1,8 @@
 [
-    {
-        "streamer": {
+    [
+        {
+            "name": "NAMVSEYASNO",
+            "color": "51C351",
             "games": [
                 {
                     "name": "Test",
@@ -9,6 +11,27 @@
                     "comment": "Comment"
                 }
             ]
+        },
+        {
+            "name": "Balabama",
+            "color": "DADA5A",
+            "games": [
+            ]
+        },
+        {
+            "name": "Westmage",
+            "color": "4ECBBF",
+            "games": [
+            ]
+        },
+        {
+            "name": "usachman",
+            "color": "BD5252",
+            "games": [
+            ]
         }
-    }
+    ],
+    [
+
+    ]
 ]
