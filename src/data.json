@@ -1,0 +1,14 @@
+[
+    {
+        "streamer": {
+            "games": [
+                {
+                    "name": "Test",
+                    "url": "https://steampowered.com",
+                    "status": 0,
+                    "comment": "Comment"
+                }
+            ]
+        }
+    }
+]

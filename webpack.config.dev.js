@@ -1,6 +1,7 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
-const webpack = require('webpack')
+const webpack = require('webpack');
+const CopyPlugin = require("copy-webpack-plugin");
 
 module.exports = {
   mode: 'development',
@@ -35,7 +36,17 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: "./src/index.html"
     }),
-    new webpack.HotModuleReplacementPlugin()
+    new CopyPlugin({
+        patterns: [
+          {
+            from: "src/CNAME"
+          },
+          {
+            from: "src/data.json"
+          }
+        ]
+      }),
+    new webpack.HotModuleReplacementPlugin(),
   ],
   resolve: {
     extensions: ['.tsx', '.ts', '.js'],

@@ -41,6 +41,9 @@ module.exports = {
       patterns: [
         {
           from: "src/CNAME"
+        },
+        {
+          from: "src/data.json"
         }
       ]
     })
