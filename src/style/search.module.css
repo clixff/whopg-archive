@@ -1,0 +1,130 @@
+@keyframes WrapperFadeIn
+{
+    0%
+    {
+        opacity: 0;
+    }
+    100%
+    {
+        opacity: 1;
+    }
+}
+
+
+@keyframes ResultFadeIn
+{
+    0%
+    {
+        margin-top: -20px;
+    }
+    100%
+    {
+        margin-top: 0px;
+    }
+}
+
+#wrapper
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 30px;
+    animation: WrapperFadeIn forwards 0.1s linear;
+}
+
+#back-wrapper
+{
+    color: #BABABA;
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#back-wrapper > button
+{
+    margin-right: 10px;
+    width: 15px;
+    height: 16px;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    background: transparent;
+}
+
+#back-wrapper > button > svg
+{
+    fill: #B8B8B8;
+    transition: fill 0.1s linear;
+}
+
+#back-wrapper > button:hover > svg
+{
+    fill: rgb(225, 225, 225);
+}
+
+#search-container
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+.result
+{
+    border-radius: 5px;
+    background-color: var(--grey-one);
+    padding: 15px;
+    animation: ResultFadeIn forwards 0.1s ease;
+}
+
+.result:not(:last-child)
+{
+    margin-bottom: 35px;
+}
+
+.result > div
+{
+    word-break: break-word;
+    color: #C9C9C9;
+}
+
+.result > div:not(:last-child)
+{
+    margin-bottom: 7px;
+}
+
+.result > div > b
+{
+    color: white !important;
+    font-weight: 600 !important;
+}
+
+.result > div > a
+{
+    color: #C9C9C9 !important;
+    text-decoration: none;
+}
+
+.result > div > a:hover
+{
+    color: white !important;
+    text-decoration: underline;
+}
+
+.game-status-completed
+{
+    color: #4FE0A5 !important;
+}
+
+.game-status-drop
+{
+    color: #FF5F5F !important;
+}
+
+.game-status-reroll
+{
+    color: #1AC5FF !important;
+}

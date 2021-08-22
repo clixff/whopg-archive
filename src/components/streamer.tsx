@@ -85,6 +85,11 @@ function GameComponent(props: IGameComponentProps): JSX.Element
         {
             e.stopPropagation();
         }
+
+        if (e && (e.target as HTMLAnchorElement).href == '' && typeof e.preventDefault() == 'function')
+        {
+            e.preventDefault();
+        }
     }
 
     return (<div className={streamerStyle['game-wrapper']}>

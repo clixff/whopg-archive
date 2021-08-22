@@ -28,3 +28,22 @@ button
     appearance: none;
     cursor: pointer;
 }
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: var(--grey-three);
+    transition: background-color 0.1s linear;
+}
+
+::-webkit-scrollbar-thumb:hover
+{
+    background: rgb(70, 70, 70);
+}
