@@ -96,7 +96,7 @@ function App(): JSX.Element
                 })
             });
 
-            console.log(events);
+            // console.log(events);
 
             setWhoPGEvents(events);
         }

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import streamerStyle from '../style/streamer.module.css'
 import { IStreamerTab, Tab } from './app';
 import ArrowSVG from '../assets/svg/arrow.svg'
@@ -9,40 +9,25 @@ interface IGameComponentProps
     game: IGame;
 }
 
-interface IGameComponentState
+
+function GameComponent(props: IGameComponentProps): JSX.Element
 {
-    bRevealed: boolean;
-    bHiddenFull: boolean;
-}
+    const [bRevealed, setRevealed] = useState(false);
+    const [bHiddenFull, setHiddenFull] = useState(true);
+    const [timeoutValue, setTimeoutValue] = useState<number | null>(null);
 
-class GameComponent extends React.Component<IGameComponentProps, IGameComponentState>
-{
-    timeout: number | null;
-    constructor(props: IGameComponentProps)
+    useEffect(() =>
     {
-        super(props);
-        this.state = {
-            bRevealed: false,
-            bHiddenFull: true
-        };
-
-        this.timeout = null;
-        this.onButtonClick = this.onButtonClick.bind(this);
-        this.getStatusName = this.getStatusName.bind(this);
-        this.getStatusClass = this.getStatusClass.bind(this);
-        this.onLinkClick = this.onLinkClick.bind(this);
-    }
-
-    componentWillUnmount()
-    {
-        if (this.timeout && window)
+        return (() =>
         {
-            window.clearTimeout(this.timeout);
-            this.timeout = null;
-        }
-    }
+            if (timeoutValue && window)
+            {
+                window.clearTimeout(timeoutValue);
+            }
+        });
+    }, []);
 
-    getStatusName(status: EGameStatus): string
+    function getStatusName(status: EGameStatus): string
     {
         switch (status) {
             case EGameStatus.Completed:
@@ -56,7 +41,7 @@ class GameComponent extends React.Component<IGameComponentProps, IGameComponentS
         }
     }
 
-    getStatusClass(status: EGameStatus): string
+    function getStatusClass(status: EGameStatus): string
     {
         switch (status) {
             case EGameStatus.Completed:
@@ -70,77 +55,67 @@ class GameComponent extends React.Component<IGameComponentProps, IGameComponentS
         }
     }
 
-    onButtonClick()
+    function onButtonClick()
     {
-        if (this.props.game.comment)
+        if (props.game.comment)
         {
-            this.setState((prevState) =>
+            if (timeoutValue && window)
             {
-                
-                if (this.timeout && window)
-                {
-                    window.clearTimeout(this.timeout);
-                    this.timeout = null;
-                }
+                window.clearTimeout(timeoutValue);
+                setTimeoutValue(null);
+            }
 
-                if (prevState.bRevealed && window)
+            if (bRevealed && window)
+            {
+                const timer = window.setTimeout(() =>
                 {
-                    this.timeout = window.setTimeout(() => 
-                    {
-                        this.setState({
-                            bHiddenFull: true
-                        })
-                    }, 1000);
-                }
+                    setHiddenFull(true);
+                }, 1000);
+                setTimeoutValue(timer);
+            }
 
-                return {
-                    bRevealed: !prevState.bRevealed,
-                    bHiddenFull: false
-                };
-            });
+            setRevealed(!bRevealed);
+            setHiddenFull(false);
         }
     }
 
-    onLinkClick(e: React.MouseEvent<HTMLAnchorElement>): void
+    function onLinkClick(e: React.MouseEvent<HTMLAnchorElement>): void
     {
-        if (e)
+        if (e && typeof e.stopPropagation == 'function')
         {
             e.stopPropagation();
         }
     }
 
-    render(): JSX.Element
+    return (<div className={streamerStyle['game-wrapper']}>
+    <button className={streamerStyle['game-wrapper-button']} onClick={onButtonClick}>
+        <div className={streamerStyle['game-button-name']}>
+            <a href={props.game.url || ''} target="_blank" rel="noopener noreferrer" onClick={onLinkClick}>
+            {
+                props.game.name
+            }
+            </a>
+        </div>
+        <div className={`${streamerStyle['game-button-status']} ${streamerStyle[getStatusClass(props.game.status)]}`}>
+            {
+                getStatusName(props.game.status)
+            }
+        </div>
+    </button>
     {
-        return (<div className={streamerStyle['game-wrapper']}>
-        <button className={streamerStyle['game-wrapper-button']} onClick={this.onButtonClick}>
-            <div className={streamerStyle['game-button-name']}>
-                <a href={this.props.game.url || ''} target="_blank" rel="noopener noreferrer" onClick={this.onLinkClick}>
-                {
-                    this.props.game.name
-                }
-                </a>
-            </div>
-            <div className={`${streamerStyle['game-button-status']} ${streamerStyle[this.getStatusClass(this.props.game.status)]}`}>
-                {
-                    this.getStatusName(this.props.game.status)
-                }
-            </div>
-        </button>
-        {
-            this.state.bHiddenFull ?
-            null :
-            (
-                <div className={`${streamerStyle['game-comment']} ${this.state.bRevealed ? streamerStyle['game-comment-revealed'] : ''}`}>
-                    <div>
-                        {
-                            this.props.game.comment || ''
-                        }
-                    </div>
+        bHiddenFull ?
+        null :
+        (
+            <div className={`${streamerStyle['game-comment']} ${bRevealed ? streamerStyle['game-comment-revealed'] : ''}`}>
+                <div>
+                    {
+                        props.game.comment || ''
+                    }
                 </div>
-            )
-        }
-    </div>);
+            </div>
+        )
     }
+    </div>);
 }
 
 interface IStreamerPageCallbacks
