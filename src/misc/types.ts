@@ -11,6 +11,7 @@ export interface IGame
     url: string;
     status: EGameStatus;
     comment: string;
+    key: string;
 }
 
 export interface IStreamer

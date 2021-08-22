@@ -5,10 +5,868 @@
             "color": "51C351",
             "games": [
                 {
-                    "name": "Test",
-                    "url": "https://steampowered.com",
+                    "name": "Don't Stop",
+                    "url": "https://store.steampowered.com/app/868760/Dont_Stop/",
+                    "status": 2,
+                    "comment": "Ранний доступ"
+                },
+                {
+                    "name": "Dementium II HD",
+                    "url": "https://store.steampowered.com/app/217100/Dementium_II_HD/",
                     "status": 0,
-                    "comment": "Comment"
+                    "comment": "Удивлен, что данная игра находится в этом ценновом отрезке. Проходится легко, складываются впечатления что разраб вдохновлялся серией игр Doom. 7\\10"
+                },
+                {
+                    "name": "Paddle Up",
+                    "url": "https://store.steampowered.com/app/496250/Paddle_Up/",
+                    "status": 2,
+                    "comment": "VR"
+                },
+                {
+                    "name": "Crazy Machines: Golden Gears",
+                    "url": "https://store.steampowered.com/app/265240/Crazy_Machines_Golden_Gears/",
+                    "status": 0,
+                    "comment": "Игра прекрасная. Дарит хорошие воспоминания о детстве. Надо думать,\nпросто так тут не пройдешь. В игре присутствуют солюшены, которые\nможно использовать заработав внутреннюю валюту ввиде \"Золотых\nМеханизмов\". Очень понравилось! 8\\10"
+                },
+                {
+                    "name": "Raiden IV OverKill",
+                    "url": "https://store.steampowered.com/app/323460/Raiden_IV_OverKill/",
+                    "status": 0,
+                    "comment": "Скроллшутер - обыкновенный. 6\\10"
+                },
+                {
+                    "name": "Pineview Drive",
+                    "url": "https://store.steampowered.com/app/288880/Pineview_Drive/",
+                    "status": 0,
+                    "comment": "Отвратительный хоррор. Симулятор поиска ключа, двери и\nвключение\\выключение света в комнате. 2\\10"
+                },
+                {
+                    "name": "Evil Genius",
+                    "url": "https://store.steampowered.com/app/3720/Evil_Genius/",
+                    "status": 1,
+                    "comment": "Очень крутая игра, советую поиграть на досуге. 9\\10"
+                },
+                {
+                    "name": "Steel And Soul",
+                    "url": "https://store.steampowered.com/app/719030/Steel_And_Soul/",
+                    "status": 2,
+                    "comment": "VR, Ранний доступ"
+                },
+                {
+                    "name": "BUTCHERBOX",
+                    "url": "https://store.steampowered.com/app/1046330/BUTCHERBOX/",
+                    "status": 2,
+                    "comment": ""
+                },
+                {
+                    "name": "Angela's Odyssey",
+                    "url": "https://store.steampowered.com/app/1061680/Angelas_Odyssey/",
+                    "status": 0,
+                    "comment": "Прекрасная игра для самых маленьких. 10\\10"
+                },
+                {
+                    "name": "Endless Room",
+                    "url": "https://store.steampowered.com/app/536340/Endless_Room/",
+                    "status": 0,
+                    "comment": ""
+                },
+                {
+                    "name": "Season Match 3 - Curse of the Witch Crow",
+                    "url": "https://store.steampowered.com/app/320670/Season_Match_3__Curse_of_the_Witch_Crow/",
+                    "status": 0,
+                    "comment": "Игра в которой хочется остаться надолго. Прекрасно проработанные\nуровни, приключения, а главное круто-стилизованные персонажи!\nИграл и играл бы, но жаль закончилась. 5\\10"
+                },
+                {
+                    "name": "A.N.N.E",
+                    "url": "https://store.steampowered.com/app/262370/ANNE/",
+                    "status": 2,
+                    "comment": "Ранний доступ"
+                },
+                {
+                    "name": "Two Worlds II HD - Call of the Tenebrae",
+                    "url": "https://store.steampowered.com/app/626630/Two_Worlds_II_HD__Call_of_the_Tenebrae/",
+                    "status": 0,
+                    "comment": ""
+                },
+                {
+                    "name": "Night Call",
+                    "url": "https://store.steampowered.com/app/680380/Night_Call/",
+                    "status": 0,
+                    "comment": ""
+                },
+                {
+                    "name": "Sakura Sakura",
+                    "url": "https://store.steampowered.com/app/658140/Sakura_Sakura/",
+                    "status": 2,
+                    "comment": "Контент для взрослых"
+                },
+                {
+                    "name": "Sins of a Solar Empire: Rebellion®",
+                    "url": "https://store.steampowered.com/app/204880/Sins_of_a_Solar_Empire_Rebellion/",
+                    "status": 2,
+                    "comment": "Игра не имеет компании"
+                },
+                {
+                    "name": "Close Combat: Cross of Iron",
+                    "url": "https://www.gog.com/game/close_combat_cross_of_iron",
+                    "status": 2,
+                    "comment": "Игра была пройдена, а после признана не легитимной - Реролл!\n(Компания является набором сценариев) Отмена перехода на 801+"
+                },
+                {
+                    "name": "A-Train 9 V4.0 : Japan Rail Simulator",
+                    "url": "https://store.steampowered.com/app/278550/ATrain_9_V40__Japan_Rail_Simulator/",
+                    "status": 2,
+                    "comment": "Бесконечная песочница"
+                },
+                {
+                    "name": "ChessBase 15 Steam Edition",
+                    "url": "https://store.steampowered.com/app/1063220/ChessBase_15_Steam_Edition/",
+                    "status": 2,
+                    "comment": "Шахматная база данных"
+                },
+                {
+                    "name": "Fantasy General II - Invasion",
+                    "url": "https://store.steampowered.com/app/1025440/Fantasy_General_II/",
+                    "status": 1,
+                    "comment": ""
+                },
+                {
+                    "name": "Deadly Zone",
+                    "url": "https://store.steampowered.com/app/676310/Deadly_Zone/",
+                    "status": 2,
+                    "comment": "Игра не имеет концовки (survival)"
+                },
+                {
+                    "name": "Monster Farm",
+                    "url": "https://store.steampowered.com/app/919560/Monster_Farm/",
+                    "status": 2,
+                    "comment": "Игра не имеет концовки"
+                },
+                {
+                    "name": "Farming Giant",
+                    "url": "https://store.steampowered.com/app/259910",
+                    "status": 2,
+                    "comment": "Бесконечный тайкун без сюжета"
+                },
+                {
+                    "name": "Achtung die Kugel!",
+                    "url": "https://store.steampowered.com/app/938660/Achtung_die_Kugel/",
+                    "status": 2,
+                    "comment": "Только мультиплеер"
+                },
+                {
+                    "name": "Floor By Floor",
+                    "url": "https://store.steampowered.com/app/826810/Floor_By_Floor/",
+                    "status": 0,
+                    "comment": "Прекрасная дипломная работа от разраба 10\\10"
+                },
+                {
+                    "name": "Battles of Norghan",
+                    "url": "https://store.steampowered.com/app/531110/Battles_of_Norghan/",
+                    "status": 2,
+                    "comment": ""
+                },
+                {
+                    "name": "Toy Soldiers",
+                    "url": "https://store.steampowered.com/app/98300/Toy_Soldiers/",
+                    "status": 0,
+                    "comment": ""
+                },
+                {
+                    "name": "Out of Space",
+                    "url": "https://store.steampowered.com/app/400080/Out_of_Space/",
+                    "status": 2,
+                    "comment": ""
+                },
+                {
+                    "name": "Ship Simulator: Maritime Search and Rescue",
+                    "url": "https://store.steampowered.com/app/274010/Ship_Simulator_Maritime_Search_and_Rescue/",
+                    "status": 0,
+                    "comment": "Легкий и непринужденный симулятор кораблика :)\nОчень приятная компания и отличная атмосфера, особенно в\nмисии с тушением пожара. 10\\10"
+                },
+                {
+                    "name": "Riddles of Fate: Memento Mori Collector's Edition",
+                    "url": "https://store.steampowered.com/app/796060/Riddles_of_Fate_Memento_Mori_Collectors_Edition/",
+                    "status": 0,
+                    "comment": "Игра кайфовая."
+                },
+                {
+                    "name": "SAWKOBAN",
+                    "url": "https://store.steampowered.com/app/757350/SAWKOBAN/",
+                    "status": 0,
+                    "comment": ""
+                },
+                {
+                    "name": "Warhammer 40,000: Fire Warrior",
+                    "url": "https://www.gog.com/game/warhammer_40000_fire_warrior",
+                    "status": 0,
+                    "comment": ""
+                },
+                {
+                    "name": "WORLD OF FINAL FANTASY®",
+                    "url": "https://store.steampowered.com/app/552700/WORLD_OF_FINAL_FANTASY/",
+                    "status": 2,
+                    "comment": ""
+                },
+                {
+                    "name": "Celestial Command",
+                    "url": "https://store.steampowered.com/app/330460/Celestial_Command/",
+                    "status": 2,
+                    "comment": "Ранний доступ"
+                },
+                {
+                    "name": "Let's Play with Nanai!",
+                    "url": "https://store.steampowered.com/agecheck/app/851350/",
+                    "status": 2,
+                    "comment": "VR, Контент для взрослых НЕ ОТКРЫВАТЬ НА СТРИМЕ!"
+                },
+                {
+                    "name": "Agents of Mayhem",
+                    "url": "https://store.steampowered.com/app/304530/Agents_of_Mayhem/",
+                    "status": 0,
+                    "comment": ""
+                },
+                {
+                    "name": "X4: Foundations",
+                    "url": "https://store.steampowered.com/app/392160/X4_Foundations/",
+                    "status": 2,
+                    "comment": "Песочница"
+                },
+                {
+                    "name": "Middle-earth™: Shadow of War™",
+                    "url": "https://store.steampowered.com/app/356190/Middleearth_Shadow_of_War/",
+                    "status": 0,
+                    "comment": ""
+                },
+                {
+                    "name": "Madorica Real Estate",
+                    "url": "https://store.steampowered.com/app/1004150/Madorica_Real_Estate/",
+                    "status": 0,
+                    "comment": ""
+                },
+                {
+                    "name": "Beyond Enemy Lines 2 Online",
+                    "url": "https://store.steampowered.com/app/1165720/Beyond_Enemy_Lines_2_Online/",
+                    "status": 2,
+                    "comment": "Только мультиплеер"
+                },
+                {
+                    "name": "Pirates Are BLANKing Awesome",
+                    "url": "https://store.steampowered.com/app/1058730/Pirates_Are_BLANKing_Awesome/",
+                    "status": 2,
+                    "comment": "Игра сломана, вместо надписей \"NOT FOUND\""
+                },
+                {
+                    "name": "Moe Era",
+                    "url": "https://store.steampowered.com/app/1159660/Moe_Era/",
+                    "status": 2,
+                    "comment": "Визуальная новелла"
+                },
+                {
+                    "name": "Abbot's Book Demo",
+                    "url": "https://store.steampowered.com/app/434430/Abbots_Book_Demo/",
+                    "status": 2,
+                    "comment": "VR"
+                },
+                {
+                    "name": "Gems of War - Puzzle RPG",
+                    "url": "https://store.steampowered.com/app/329110/Gems_of_War__Puzzle_RPG/",
+                    "status": 2,
+                    "comment": "MMO Хуета"
+                },
+                {
+                    "name": "Dementium II HD",
+                    "url": "https://store.steampowered.com/app/217100/Dementium_II_HD/",
+                    "status": 2,
+                    "comment": "Уже выпадала"
+                },
+                {
+                    "name": "R.O.O.T.S",
+                    "url": "https://store.steampowered.com/app/357930/ROOTS/",
+                    "status": 1,
+                    "comment": ""
+                },
+                {
+                    "name": "DinosaurIsland",
+                    "url": "https://store.steampowered.com/app/698160/DinosaurIsland/",
+                    "status": 2,
+                    "comment": "Survival песочница"
+                },
+                {
+                    "name": "Battle for the Galaxy",
+                    "url": "https://store.steampowered.com/app/716610/Battle_for_the_Galaxy/",
+                    "status": 2,
+                    "comment": "MMO"
+                },
+                {
+                    "name": "Roboshark Rampage",
+                    "url": "https://store.steampowered.com/app/1235130/Roboshark_Rampage/",
+                    "status": 1,
+                    "comment": ""
+                },
+                {
+                    "name": "Creatures",
+                    "url": "https://store.steampowered.com/app/1109790/Creatures/",
+                    "status": 2,
+                    "comment": "Ранний доступ"
+                },
+                {
+                    "name": "Arcade LA Deadzone",
+                    "url": "https://store.steampowered.com/app/904590/Arcade_LA_Deadzone/",
+                    "status": 2,
+                    "comment": "VR"
+                },
+                {
+                    "name": "ERR - 001",
+                    "url": "https://store.steampowered.com/app/559990/ERR__001/",
+                    "status": 2,
+                    "comment": "Игра не добавляется в Steam, на полке отсутствует"
+                },
+                {
+                    "name": "Cynoclept: The Game",
+                    "url": "https://store.steampowered.com/app/688880/Cynoclept_The_Game/",
+                    "status": 0,
+                    "comment": ""
+                },
+                {
+                    "name": "Scikor - Final Scale",
+                    "url": "https://store.steampowered.com/app/1074390/Scikor__Final_Scale/",
+                    "status": 0,
+                    "comment": ""
+                },
+                {
+                    "name": "Metrico+",
+                    "url": "https://store.steampowered.com/app/373990/Metrico/",
+                    "status": 0,
+                    "comment": ""
+                },
+                {
+                    "name": "Shooting Sports Gun Club",
+                    "url": "https://store.steampowered.com/app/767020/Shooting_Sports_Gun_Club/",
+                    "status": 2,
+                    "comment": "Спортивный симулятор стрельбы по тарелкам"
+                },
+                {
+                    "name": "Endless Legend™ - Emperor Edition",
+                    "url": "https://store.steampowered.com/app/289130/Endless_Legend__Emperor_Edition/",
+                    "status": 2,
+                    "comment": "Клон цивы, компании отсутствуют"
+                },
+                {
+                    "name": "Starship Rubicon",
+                    "url": "https://store.steampowered.com/app/372030/Starship_Rubicon/",
+                    "status": 0,
+                    "comment": ""
+                },
+                {
+                    "name": "The Disney Afternoon Collection",
+                    "url": "https://store.steampowered.com/app/525040/The_Disney_Afternoon_Collection/",
+                    "status": 2,
+                    "comment": "Сборник игр"
+                },
+                {
+                    "name": "Endzone - A World Apart",
+                    "url": "https://store.steampowered.com/app/933820/Endzone__A_World_Apart/",
+                    "status": 2,
+                    "comment": "Ранний доступ"
+                },
+                {
+                    "name": "RimWorld",
+                    "url": "https://store.steampowered.com/app/294100/RimWorld/",
+                    "status": 2,
+                    "comment": "Песочница"
+                },
+                {
+                    "name": "Eisenbahn X",
+                    "url": "https://store.steampowered.com/app/335310/Eisenbahn_X/",
+                    "status": 2,
+                    "comment": "Только немецкий"
+                },
+                {
+                    "name": "Fishing: Barents Sea",
+                    "url": "https://store.steampowered.com/app/501080/Fishing_Barents_Sea/",
+                    "status": 2,
+                    "comment": "Игра не имеет концовки"
+                },
+                {
+                    "name": "We are the Dwarves",
+                    "url": "https://www.gog.com/game/we_are_the_dwarves",
+                    "status": 2,
+                    "comment": "Не проходит по цене"
+                },
+                {
+                    "name": "Car Mechanic Simulator 2015",
+                    "url": "https://store.steampowered.com/app/320300/Car_Mechanic_Simulator_2015/",
+                    "status": 2,
+                    "comment": "Игра не имеет концовки"
+                },
+                {
+                    "name": "Geometry Wars™ 3: Dimensions Evolved",
+                    "url": "https://store.steampowered.com/app/310790/Geometry_Wars_3_Dimensions_Evolved/",
+                    "status": 0,
+                    "comment": ""
+                },
+                {
+                    "name": "Mafia II: Director’s Cut",
+                    "url": "https://www.gog.com/game/mafia_ii_directors_cut",
+                    "status": 0,
+                    "comment": ""
+                },
+                {
+                    "name": "局外人 L'Etranger",
+                    "url": "https://store.steampowered.com/app/1078970/_LEtranger/",
+                    "status": 2,
+                    "comment": "Отсутствует английский язык, визуальная новелла."
+                },
+                {
+                    "name": "Legion 51",
+                    "url": "https://store.steampowered.com/app/1158280/Legion_51/",
+                    "status": 0,
+                    "comment": ""
+                },
+                {
+                    "name": "Tahko Alpine Ski",
+                    "url": "https://store.steampowered.com/app/1028170/Tahko_Alpine_Ski/",
+                    "status": 2,
+                    "comment": "VR"
+                },
+                {
+                    "name": "Rubber Ball VR",
+                    "url": "https://store.steampowered.com/app/603630/Rubber_Ball_VR/",
+                    "status": 2,
+                    "comment": "VR"
+                },
+                {
+                    "name": "Nightingale Downs",
+                    "url": "https://store.steampowered.com/app/727220/Nightingale_Downs/",
+                    "status": 0,
+                    "comment": ""
+                },
+                {
+                    "name": "Iron Heart",
+                    "url": "https://store.steampowered.com/app/1034370/Iron_Heart/",
+                    "status": 0,
+                    "comment": ""
+                },
+                {
+                    "name": "A Light in the Dark",
+                    "url": "https://store.steampowered.com/app/766280/A_Light_in_the_Dark/",
+                    "status": 2,
+                    "comment": "Визуальная новелла"
+                },
+                {
+                    "name": "Among the Sleep - Enhanced Edition",
+                    "url": "https://store.steampowered.com/app/250620/Among_the_Sleep__Enhanced_Edition/",
+                    "status": 0,
+                    "comment": ""
+                },
+                {
+                    "name": "EEP 13",
+                    "url": "https://store.steampowered.com/app/541270",
+                    "status": 2,
+                    "comment": "Train simulator (Игра не имеет концовки)"
+                },
+                {
+                    "name": "The Book Of Yorle: Save The Church",
+                    "url": "https://store.steampowered.com/app/1164520/The_Book_Of_Yorle_Save_The_Church/",
+                    "status": 2,
+                    "comment": "Игра не имеет концовки"
+                },
+                {
+                    "name": "Jagged Alliance - Back in Action",
+                    "url": "https://store.steampowered.com/app/57740/Jagged_Alliance__Back_in_Action/",
+                    "status": 0,
+                    "comment": "Сложное, багнутое гавно"
+                },
+                {
+                    "name": "Pirates Outlaws",
+                    "url": "https://store.steampowered.com/app/1046300/Pirates_Outlaws/",
+                    "status": 2,
+                    "comment": ""
+                },
+                {
+                    "name": "Gravity Lab - Gravitational Testing\nFacility & Observations",
+                    "url": "https://store.steampowered.com/app/408340/Gravity_Lab__Gravitational_Testing_Facility__Observations/",
+                    "status": 2,
+                    "comment": "VR"
+                },
+                {
+                    "name": "Bunny Madness Anarchy",
+                    "url": "https://store.steampowered.com/app/591130/Bunny_Madness_Anarchy/",
+                    "status": 2,
+                    "comment": ""
+                },
+                {
+                    "name": "The MISSING: J.J. Macfield and the\nIsland of Memories",
+                    "url": "https://store.steampowered.com/app/842910/The_MISSING_JJ_Macfield_and_the_Island_of_Memories/",
+                    "status": 0,
+                    "comment": ""
+                },
+                {
+                    "name": "The Explorer",
+                    "url": "https://store.steampowered.com/app/1184980/The_Explorer/",
+                    "status": 2,
+                    "comment": "Отсутствие английского языка"
+                },
+                {
+                    "name": "Kara no Shojo",
+                    "url": "https://store.steampowered.com/app/965810/Kara_no_Shojo/",
+                    "status": 2,
+                    "comment": "Визуальная новелла +18"
+                },
+                {
+                    "name": "The Settlers® : Rise of an Empire - History Edition",
+                    "url": "https://store.steampowered.com/app/965310/The_Settlers__Rise_of_an_Empire__History_Edition/",
+                    "status": 1,
+                    "comment": ""
+                },
+                {
+                    "name": "Parallyzed",
+                    "url": "https://store.steampowered.com/app/545670/Parallyzed/",
+                    "status": 1,
+                    "comment": ""
+                },
+                {
+                    "name": "The Defender: Farm and Castle",
+                    "url": "https://store.steampowered.com/app/1067600/The_Defender_Farm_and_Castle/",
+                    "status": 0,
+                    "comment": ""
+                },
+                {
+                    "name": "Torin's Passage",
+                    "url": "https://www.gog.com/game/torins_passage",
+                    "status": 0,
+                    "comment": ""
+                },
+                {
+                    "name": "Delta-G",
+                    "url": "https://store.steampowered.com/app/872220/DeltaG/",
+                    "status": 2,
+                    "comment": "Multiplayer, PVP."
+                },
+                {
+                    "name": "Wulverblade",
+                    "url": "https://store.steampowered.com/app/587180/Wulverblade/",
+                    "status": 0,
+                    "comment": ""
+                },
+                {
+                    "name": "Raiden V: Director’s Cut",
+                    "url": "https://www.gog.com/game/raiden_v_directors_cut",
+                    "status": 0,
+                    "comment": ""
+                },
+                {
+                    "name": "Romance of the Three Kingdoms XI",
+                    "url": "https://store.steampowered.com/app/628070/Romance_of_the_Three_Kingdoms_XI_with_Power_Up_Kit/",
+                    "status": 2,
+                    "comment": "Отсутствует английский язык."
+                },
+                {
+                    "name": "Call of Juarez: Gunslinger",
+                    "url": "https://store.steampowered.com/app/204450/Call_of_Juarez_Gunslinger/",
+                    "status": 0,
+                    "comment": "Кайфовый и атмосферный вестерн"
+                },
+                {
+                    "name": "Funbag Fantasy: Sideboob Story",
+                    "url": "https://store.steampowered.com/app/1161180/Funbag_Fantasy_Sideboob_Story_2/",
+                    "status": 2,
+                    "comment": "Визуальная новелла с возрастным ограничением +18"
+                },
+                {
+                    "name": "River City Melee Mach!!",
+                    "url": "https://store.steampowered.com/app/763710/River_City_Melee_Mach/",
+                    "status": 0,
+                    "comment": ""
+                },
+                {
+                    "name": "Tippy Tree",
+                    "url": "https://store.steampowered.com/app/966210/Tippy_Tree/",
+                    "status": 2,
+                    "comment": "VR рерол"
+                },
+                {
+                    "name": "The Cameron Files: The Secret at Loch Ness",
+                    "url": "https://store.steampowered.com/app/302170/The_Cameron_Files_The_Secret_at_Loch_Ness/",
+                    "status": 0,
+                    "comment": ""
+                },
+                {
+                    "name": "The Scream",
+                    "url": "https://store.steampowered.com/app/1097120/The_Scream/",
+                    "status": 2,
+                    "comment": "VR"
+                },
+                {
+                    "name": "Kult: Heretic Kingdoms",
+                    "url": "https://store.steampowered.com/app/277650/Kult_Heretic_Kingdoms/",
+                    "status": 2,
+                    "comment": ""
+                },
+                {
+                    "name": "The Next BIG Thing",
+                    "url": "https://store.steampowered.com/app/58570/The_Next_BIG_Thing/",
+                    "status": 0,
+                    "comment": ""
+                },
+                {
+                    "name": "Deadly Curse: Insane Nightmare",
+                    "url": "https://store.steampowered.com/app/949510/Deadly_Curse_Insane_Nightmare/",
+                    "status": 0,
+                    "comment": "Багованное рандомное говно, котором твоей задачей является найти\n10 картинок и 1 крест. Слендер курильщика сбежавшего с дурки."
+                },
+                {
+                    "name": "Geneforge 1",
+                    "url": "https://store.steampowered.com/app/200960/Geneforge_1/",
+                    "status": 2,
+                    "comment": "Некорректная стоимость игры (только бандл)"
+                },
+                {
+                    "name": "Ferret Scoundrels",
+                    "url": "https://store.steampowered.com/app/1064320/Ferret_Scoundrels/",
+                    "status": 2,
+                    "comment": "Ранний доступ"
+                },
+                {
+                    "name": "Metro Simulator 2020",
+                    "url": "https://store.steampowered.com/app/994890/Metro_Simulator_2020/",
+                    "status": 2,
+                    "comment": "Ранний доступ"
+                },
+                {
+                    "name": "Block bat invasion",
+                    "url": "https://store.steampowered.com/app/1070960/Block_bat_invasion/",
+                    "status": 2,
+                    "comment": "Только китайский"
+                },
+                {
+                    "name": "Orc Assault",
+                    "url": "https://store.steampowered.com/app/371360/Orc_Assault/",
+                    "status": 2,
+                    "comment": "VR, Некорректная стоимость игры"
+                },
+                {
+                    "name": "Frozen Synapse Prime",
+                    "url": "https://store.steampowered.com/app/328600/Frozen_Synapse_Prime/",
+                    "status": 2,
+                    "comment": ""
+                },
+                {
+                    "name": "Crysis® 3",
+                    "url": "https://www.origin.com/rus/en-us/store/crysis/crysis-3#store-page-section-overview",
+                    "status": 2,
+                    "comment": "Некорректная стоимость игры (цена подписки Origin)"
+                },
+                {
+                    "name": "NOBUNAGA’S AMBITION: Reppuden",
+                    "url": "https://store.steampowered.com/app/628110/NOBUNAGAS_AMBITION_Reppuden_with_Power_Up_Kit___with/",
+                    "status": 2,
+                    "comment": "Только японский"
+                },
+                {
+                    "name": "Overlanders",
+                    "url": "https://store.steampowered.com/app/779450/Overlanders/",
+                    "status": 1,
+                    "comment": ""
+                },
+                {
+                    "name": "Cockroach Simulator",
+                    "url": "https://store.steampowered.com/app/527450",
+                    "status": 2,
+                    "comment": "Мультиплеер"
+                },
+                {
+                    "name": "Conclusion",
+                    "url": "https://store.steampowered.com/app/497350/Conclusion/",
+                    "status": 0,
+                    "comment": ""
+                },
+                {
+                    "name": "Donuts'n'Justice",
+                    "url": "https://store.steampowered.com/app/527470/DonutsnJustice/",
+                    "status": 0,
+                    "comment": ""
+                },
+                {
+                    "name": "Myths of the World: Of Fiends and Fairies",
+                    "url": "https://store.steampowered.com/app/866790/Myths_of_the_World_Of_Fiends_and_Fairies_Collectors_Edition/",
+                    "status": 0,
+                    "comment": ""
+                },
+                {
+                    "name": "From the Depths",
+                    "url": "https://store.steampowered.com/app/268650/From_the_Depths/",
+                    "status": 2,
+                    "comment": "Ранний доступ"
+                },
+                {
+                    "name": "Sapper",
+                    "url": "https://store.steampowered.com/app/1090690/Sapper/",
+                    "status": 0,
+                    "comment": ""
+                },
+                {
+                    "name": "The Evil Within",
+                    "url": "https://store.steampowered.com/app/268050/The_Evil_Within/",
+                    "status": 0,
+                    "comment": ""
+                },
+                {
+                    "name": "ChessBase 15 Steam Edition",
+                    "url": "https://store.steampowered.com/app/1063220/ChessBase_15_Steam_Edition/",
+                    "status": 2,
+                    "comment": "Софт"
+                },
+                {
+                    "name": "Might & Magic® Heroes® VII",
+                    "url": "https://store.steampowered.com/app/321960/Might__Magic_Heroes_VII/",
+                    "status": 0,
+                    "comment": ""
+                },
+                {
+                    "name": "World of Guns: Gun Disassembly",
+                    "url": "https://store.steampowered.com/app/262410/World_of_Guns_Gun_Disassembly/",
+                    "status": 2,
+                    "comment": "Игра не имеет концовки (cимулятор сборки\\разборки оружия)"
+                },
+                {
+                    "name": "Under Spire 尖塔自走棋",
+                    "url": "https://store.steampowered.com/app/1063140/Under_Spire/",
+                    "status": 2,
+                    "comment": "Игра не запускается"
+                },
+                {
+                    "name": "Train Bandit",
+                    "url": "https://store.steampowered.com/app/655370/Train_Bandit/",
+                    "status": 2,
+                    "comment": "Игра не имеет концовки (только свой highscore)"
+                },
+                {
+                    "name": "LUMBERMANCER",
+                    "url": "https://store.steampowered.com/app/491210",
+                    "status": 0,
+                    "comment": ""
+                },
+                {
+                    "name": "Below Kryll",
+                    "url": "https://store.steampowered.com/app/365870/Below_Kryll/",
+                    "status": 0,
+                    "comment": ""
+                },
+                {
+                    "name": "Wellington's Victory",
+                    "url": "https://store.steampowered.com/app/388000/Wellingtons_Victory/",
+                    "status": 2,
+                    "comment": "Отсутствие кампании. Сценарий военных событий."
+                },
+                {
+                    "name": "Damsel",
+                    "url": "https://store.steampowered.com/app/452410/Damsel/",
+                    "status": 0,
+                    "comment": ""
+                },
+                {
+                    "name": "Gunship Battle2 VR: Steam Edition",
+                    "url": "https://store.steampowered.com/app/700990/Gunship_Battle2_VR_Steam_Edition/",
+                    "status": 2,
+                    "comment": "VR"
+                },
+                {
+                    "name": "Pier Solar and the Great Architects",
+                    "url": "https://store.steampowered.com/app/286220",
+                    "status": 1,
+                    "comment": ""
+                },
+                {
+                    "name": "Mountain Crime: Requital",
+                    "url": "https://store.steampowered.com/app/394680/Mountain_Crime_Requital/",
+                    "status": 1,
+                    "comment": ""
+                },
+                {
+                    "name": "Pixel Survivors",
+                    "url": "https://store.steampowered.com/app/342970/Pixel_Survivors/",
+                    "status": 1,
+                    "comment": ""
+                },
+                {
+                    "name": "Back Home",
+                    "url": "https://store.steampowered.com/app/1095080",
+                    "status": 1,
+                    "comment": ""
+                },
+                {
+                    "name": "HopeLine",
+                    "url": "https://store.steampowered.com/app/886520",
+                    "status": 2,
+                    "comment": "Ранний доступ"
+                },
+                {
+                    "name": "Not Heaven",
+                    "url": "https://store.steampowered.com/app/951250",
+                    "status": 0,
+                    "comment": ""
+                },
+                {
+                    "name": "Zarya-1: Mystery on the Moon",
+                    "url": "https://store.steampowered.com/app/640090",
+                    "status": 2,
+                    "comment": "Текстовый квест"
+                },
+                {
+                    "name": "Deer Hunt Legends",
+                    "url": "https://store.steampowered.com/app/328670",
+                    "status": 2,
+                    "comment": "Спортивный симулятор (охота)"
+                },
+                {
+                    "name": "Robbery Bob: Man of Steal",
+                    "url": "https://store.steampowered.com/app/372960/Robbery_Bob_Man_of_Steal/",
+                    "status": 1,
+                    "comment": ""
+                },
+                {
+                    "name": "Kicks Online",
+                    "url": "https://store.steampowered.com/app/1255970",
+                    "status": 2,
+                    "comment": "Онлайн игра"
+                },
+                {
+                    "name": "Dead Noir the Heart",
+                    "url": "https://store.steampowered.com/app/718920/Dead_Noir_the_Heart/",
+                    "status": 2,
+                    "comment": "Технический реролл, не срабатывает скрипт спустся 2ч игры..."
+                },
+                {
+                    "name": "Flatland: Prologue",
+                    "url": "https://store.steampowered.com/app/1261660/Flatland_Prologue/",
+                    "status": 0,
+                    "comment": ""
+                },
+                {
+                    "name": "Suicide Guy: Sleepin' Deeply",
+                    "url": "https://store.steampowered.com/app/860860/Suicide_Guy_Sleepin_Deeply/",
+                    "status": 0,
+                    "comment": ""
+                },
+                {
+                    "name": "RetroGunX VR",
+                    "url": "https://store.steampowered.com/app/691720/RetroGunX_VR/",
+                    "status": 2,
+                    "comment": "VR"
+                },
+                {
+                    "name": "AWAKEN：Gunpowder Adventurer Day.Dream",
+                    "url": "https://store.steampowered.com/app/760000/AWAKENGunpowder_Adventurer_DayDream/",
+                    "status": 2,
+                    "comment": "Ранний доступ"
+                },
+                {
+                    "name": "Nelson and the Magic Cauldron",
+                    "url": "https://store.steampowered.com/app/964750/Nelson_and_the_Magic_Cauldron/",
+                    "status": 3,
+                    "comment": ""
                 }
             ]
         },

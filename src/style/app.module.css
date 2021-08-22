@@ -16,6 +16,7 @@
     align-items: center;
     position: fixed;
     top: 0px;
+    z-index: 1000;
 }
 
 #navbar-logo
@@ -46,7 +47,20 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+
+    --width: 530px;
+    width: var(--width);
+    min-width: var(--width);
+    max-width: var(--width);
 }
+
+@media only screen and (max-width: 768px) {
+    #content-container
+    {
+        --width: calc(100% - 30px);
+    }
+}
+  
 
 #search-wrapper
 {
@@ -55,10 +69,7 @@
     min-height: var(--height);
     max-height: var(--height);
 
-    --width: 530px;
-    width: var(--width);
-    min-width: var(--width);
-    max-width: var(--width);
+    width: 100%;
 
     display: flex;
     flex-direction: row;
@@ -71,6 +82,7 @@
     height: inherit;
     min-height: inherit;
     max-height: inherit;
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, .2);
 }
 
 #search-button

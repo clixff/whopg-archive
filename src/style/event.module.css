@@ -1,9 +1,26 @@
+
+@keyframes WrapperIn
+{
+    0%
+    {
+        opacity: 0;
+        margin-top: 35px;
+    }
+    100%
+    {
+        opacity: 1;
+        margin-top: 50px;
+    }
+}
+
 #wrapper
 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-top: 50px;
+
+    animation: WrapperIn forwards 0.1s linear;
 }
 
 #title
@@ -49,6 +66,7 @@
     padding-left: 16px;
     cursor: pointer;
     transition: background-color 0.15s linear;
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, .2);
 }
 
 .streamer:hover, .streamer:focus

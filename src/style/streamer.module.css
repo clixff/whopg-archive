@@ -1,0 +1,206 @@
+@keyframes WrapperFadeIn
+{
+    0%
+    {
+        opacity: 0;
+    }
+    100%
+    {
+        opacity: 1;
+    }
+}
+
+@keyframes GameFadeIn
+{
+    0%
+    {
+        margin-top: -20px;
+    }
+    100%
+    {
+        margin-top: 0px;
+    }
+}
+
+#wrapper
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 30px;
+    animation: WrapperFadeIn forwards 0.1s linear;
+}
+
+#back-wrapper
+{
+    color: #BABABA;
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#back-wrapper > button
+{
+    margin-right: 10px;
+    width: 15px;
+    height: 16px;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    background: transparent;
+}
+
+#back-wrapper > button > svg
+{
+    fill: #B8B8B8;
+    transition: fill 0.1s linear;
+}
+
+#back-wrapper > button:hover > svg
+{
+    fill: rgb(225, 225, 225);
+}
+
+#games-list-wrapper
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+#games-list-container
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#games-list-head
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #BABABA;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+#games-list-head-name
+{
+    margin-left: 25px;
+}
+
+#games-list-head-status
+{
+    text-align: center;
+    margin-right: 45px;
+}
+
+.game-wrapper
+{
+    width: 100%;
+    flex-direction: column;
+    animation: GameFadeIn forwards 0.1s ease;
+}
+
+.game-wrapper-button
+{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    height: 46px;
+    border-radius: 5px;
+    background-color: var(--grey-one);
+    transition: background-color 0.15s linear;
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, .2);
+}
+
+.game-wrapper-button:hover
+{
+    background-color: rgb(40, 40, 40);
+}
+
+.game-button-name, .game-button-name > a, .game-button-name > a:hover, .game-button-name > a:active, .game-button-name > a:visited
+{
+    color: white !important;
+    text-decoration: none;
+}
+
+.game-button-name > a:hover
+{
+    text-decoration: underline;
+}
+
+.game-button-name
+{
+    margin-left: 25px;
+    width: calc(100% - 130px);
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.game-button-name, .game-button-status
+{
+    font-weight: 600;
+    font-size: 13px;
+}
+
+#games-list-container
+{
+    margin-top: 20px;
+}
+
+.game-button-status
+{
+    margin-right: 33px;
+    text-align: center;
+    width: 70px;
+}
+
+.game-status-completed
+{
+    color: #4FE0A5;
+}
+
+.game-status-drop
+{
+    color: #FF5F5F;
+}
+
+.game-status-reroll
+{
+    color: #1AC5FF;
+}
+
+#games-list-container > *:not(:last-child)
+{
+    margin-bottom: 20px;
+}
+
+.game-comment >  div
+{
+    margin-top: 20px;
+    word-break: break-word;
+}
+
+.game-comment
+{
+    margin-left: 25px;
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0.2s ease;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.game-comment-revealed
+{
+    max-height: 200px !important;
+}
