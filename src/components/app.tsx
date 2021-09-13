@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import ReactDOM from "react-dom";
 import appStyles from '../style/app.module.css';
 import '../style/style.css';
-import { IStreamer, WhoPGEvent } from '../misc/types';
+import { EGameStatus, IStreamer, WhoPGEvent } from '../misc/types';
 import SearchIcon from '../assets/svg/search.svg'
 import LoadingIcon from '../assets/svg/loading.svg'
 import { HomePage } from './home';
@@ -109,9 +109,29 @@ function App(): JSX.Element
                         streamer.games = [];
                     }
 
+                    streamer.stats = {
+                        total: streamer.games.length,
+                        completed: 0,
+                        drop: 0,
+                        reroll: 0
+                    };
+
                     streamer.games.forEach((game) => {
                         game.key = game.name.toLowerCase();
                         game.key = game.key.replace(/[\-\:]/g, ' ').replace(/\s\s+/g, ' ').trim();
+
+                        switch (game.status)
+                        {
+                            case EGameStatus.Completed:
+                                streamer.stats.completed++;
+                                break;
+                            case EGameStatus.Drop:
+                                streamer.stats.drop++;
+                                break;
+                            case EGameStatus.Reroll:
+                                streamer.stats.reroll++;
+                                break;
+                        }
                     });
                 })
             });

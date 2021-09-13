@@ -25,6 +25,13 @@ export interface IStreamer
     name: string;
     color: string;
     games: Array<IGame>;
+    stats: {
+        total: number,
+        completed: number,
+        drop: number,
+        reroll: number
+    },
+    coreTime?: string
 }
 
 export type WhoPGEvent = Array<IStreamer>;

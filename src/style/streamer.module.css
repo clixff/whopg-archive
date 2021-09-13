@@ -208,6 +208,11 @@
     max-height: 200px !important;
 }
 
+.game-tracker
+{
+    color: #3dd882;
+}
+
 .game-tracker > a, .game-tracker > a:active, .game-tracker > a:visited
 {
     color: #C9C9C9;
@@ -230,11 +235,57 @@
 {
     --icon-size: 16px;
     width: var(--icon-size);
+    min-width: var(--icon-size);
+    max-width: var(--icon-size);
     height: var(--icon-size);
+    min-height: var(--icon-size);
+    max-height: var(--icon-size);
     margin-right: 7px;
 }
 
 .game-watch-icon > svg
 {
     fill: white;
+}
+
+.stats-status-completed > b
+{
+    color: #4FE0A5;
+}
+
+.stats-status-drop > b
+{
+    color: #FF5F5F;
+}
+
+.stats-status-reroll > b
+{
+    color: #1AC5FF;
+}
+
+.stats-status-core > b
+{
+    color: #f3d64b;
+}
+
+.stats-status-total > b
+{
+    color: white;
+}
+
+#streamer-stats
+{
+    margin-top: 15px;
+    margin-left: 25px;
+    color: #C9C9C9;
+}
+
+#streamer-stats > div:not(:first-child)
+{
+    margin-top: 7px;
+}
+
+#streamer-stats > div > b
+{
+    font-weight: 600;
 }

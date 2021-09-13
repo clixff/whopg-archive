@@ -11,6 +11,19 @@ interface IGameComponentProps
     game: IGame;
 }
 
+function getStatusClass(status: EGameStatus): string
+{
+    switch (status) {
+        case EGameStatus.Completed:
+            return 'game-status-completed';
+        case EGameStatus.Drop:
+            return 'game-status-drop';
+        case EGameStatus.Reroll:
+            return 'game-status-reroll';
+        default:
+            return 'game-status-completed';
+    }
+}
 
 function GameComponent(props: IGameComponentProps): JSX.Element
 {
@@ -40,20 +53,6 @@ function GameComponent(props: IGameComponentProps): JSX.Element
                 return 'Реролл';
             default:
                 return '';
-        }
-    }
-
-    function getStatusClass(status: EGameStatus): string
-    {
-        switch (status) {
-            case EGameStatus.Completed:
-                return 'game-status-completed';
-            case EGameStatus.Drop:
-                return 'game-status-drop';
-            case EGameStatus.Reroll:
-                return 'game-status-reroll';
-            default:
-                return 'game-status-completed';
         }
     }
 
@@ -165,6 +164,27 @@ export function StreamerPageComponent(props: IStreamerPageProps): JSX.Element
             </button>
             {
                 props.data.name
+            }
+        </div>
+        <div id={streamerStyle['streamer-stats']}>
+            <div className={streamerStyle['stats-status-total']}>
+                <b> Всего игр: </b> {  props.data.streamer?.stats.total }
+            </div>
+            <div className={streamerStyle['stats-status-completed']}>
+                <b> Пройдено: </b> {  props.data.streamer?.stats.completed }
+            </div>
+            <div className={streamerStyle['stats-status-reroll']}>
+                <b> Рероллы: </b> {  props.data.streamer?.stats.reroll }
+            </div>
+            <div className={streamerStyle['stats-status-drop']}>
+                <b> Дропы: </b> {  props.data.streamer?.stats.drop }
+            </div>
+            {
+                props.data.streamer?.coreTime ?
+                    <div className={streamerStyle['stats-status-core']}>
+                        <b> Время в ядре: </b> {  props.data.streamer.coreTime }
+                    </div>
+                : null
             }
         </div>
         <div id={streamerStyle['games-list-wrapper']}>
