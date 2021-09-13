@@ -3,6 +3,7 @@ import { EGameStatus, IGame, IStreamer, WhoPGEvent } from '../misc/types';
 import searchStyle from '../style/search.module.css';
 import ArrowSVG from '../assets/svg/arrow.svg'
 import { Tab } from './app';
+import { formatTrackerTime } from '../misc/misc'
 
 export interface ISearchResult
 {
@@ -79,10 +80,15 @@ function SearchResultComponent(props: ISearchResultComponentProps): JSX.Element
 
     return (<div className={searchStyle.result}>
         <div> <b> Ивент: </b> WhoPG { props.result.event }  </div>
-        <div style={ { color: `#${props.result.streamer.color}` } } > <b> Стример: </b> { props.result.streamer.name }  </div>
+        <div className={searchStyle['streamer-name']} style={ { color: `#${props.result.streamer.color}` } } > <b> Стример: </b> { props.result.streamer.name }  </div>
         <div> <b> Игра: </b> <a href={props.result.game.url || ''} target="_blank" rel="noopener noreferrer"> { props.result.game.name } </a> </div>
         <div className={searchStyle[getStatusClass(props.result.game.status)]}> <b> Статус: </b> { getStatusName(props.result.game.status) }  </div>
         <div> <b> Комментарий: </b> { props.result.game.comment }  </div>
+        {
+            props.result.game.tracker ?
+                <div className={searchStyle['tracker-time']}> <b> Время TwitchTracker: </b> <a href={props.result.game.tracker.link || ''} target="_blank" rel="noopener noreferrer"> { formatTrackerTime(props.result.game.tracker.time || 0)  } </a>  </div>
+            : null
+        }
     </div>);
 }
 

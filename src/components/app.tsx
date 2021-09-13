@@ -138,6 +138,12 @@ function App(): JSX.Element
     function initSearch()
     {
         const searchValueFormatted = searchValue.toLowerCase().replace(/[\-\:]/g, ' ').replace(/\s\s+/g, ' ').trim();
+
+        if (!searchValueFormatted)
+        {
+            return;
+        }
+
         const searchResults_ = findGames(searchValueFormatted, whoPGEvents);
 
         setSearchResults(searchResults_);

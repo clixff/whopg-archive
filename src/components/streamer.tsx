@@ -2,7 +2,9 @@ import React, { useEffect, useState } from 'react';
 import streamerStyle from '../style/streamer.module.css'
 import { IStreamerTab, Tab } from './app';
 import ArrowSVG from '../assets/svg/arrow.svg'
+import WatchSVG from '../assets/svg/watch.svg'
 import { EGameStatus, IGame } from '../misc/types';
+import { formatTrackerTime } from '../misc/misc'
 
 interface IGameComponentProps
 {
@@ -57,7 +59,7 @@ function GameComponent(props: IGameComponentProps): JSX.Element
 
     function onButtonClick()
     {
-        if (props.game.comment)
+        if (props.game.comment || props.game.tracker)
         {
             if (timeoutValue && window)
             {
@@ -95,6 +97,13 @@ function GameComponent(props: IGameComponentProps): JSX.Element
     return (<div className={streamerStyle['game-wrapper']}>
     <button className={streamerStyle['game-wrapper-button']} onClick={onButtonClick}>
         <div className={streamerStyle['game-button-name']}>
+            {
+                props.game.tracker ?
+                    <div className={streamerStyle['game-watch-icon']}>
+                        <WatchSVG />
+                    </div>
+                : null
+            }
             <a href={props.game.url || ''} target="_blank" rel="noopener noreferrer" onClick={onLinkClick}>
             {
                 props.game.name
@@ -117,6 +126,11 @@ function GameComponent(props: IGameComponentProps): JSX.Element
                         props.game.comment || ''
                     }
                 </div>
+                {
+                    props.game.tracker ?
+                        <div className={streamerStyle['game-tracker']}> <b> Время TwitchTracker: </b> <a href={props.game.tracker.link || ''} target="_blank" rel="noopener noreferrer"> { formatTrackerTime(props.game.tracker.time || 0)  } </a> </div>
+                    : null
+                }
             </div>
         )
     }

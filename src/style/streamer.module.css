@@ -144,6 +144,9 @@
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .game-button-name, .game-button-status
@@ -203,4 +206,35 @@
 .game-comment-revealed
 {
     max-height: 200px !important;
+}
+
+.game-tracker > a, .game-tracker > a:active, .game-tracker > a:visited
+{
+    color: #C9C9C9;
+    text-decoration: none;
+    transition: color 0.1s linear;
+}
+
+.game-tracker > *
+{
+    font-weight: 600 !important;
+}
+
+.game-tracker > a:hover
+{
+    color: white;
+    text-decoration: underline;
+}
+
+.game-watch-icon
+{
+    --icon-size: 16px;
+    width: var(--icon-size);
+    height: var(--icon-size);
+    margin-right: 7px;
+}
+
+.game-watch-icon > svg
+{
+    fill: white;
 }

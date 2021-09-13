@@ -12,6 +12,12 @@ export interface IGame
     status: EGameStatus;
     comment: string;
     key: string;
+    tracker?: {
+        /** Link to twitchtracker page */
+        link: string,
+        /** Number of hours played */
+        time: number
+    }
 }
 
 export interface IStreamer
